@@ -1,0 +1,25 @@
+{
+  "name": "simple-dex",
+  "version": "1.0.0",
+  "description": "a Decentralized Exchange demo in express (feats: buy, sell)",
+  "homepage": "https://github.com/codesbyjit/simple-dex#readme",
+  "bugs": {
+    "url": "https://github.com/codesbyjit/simple-dex/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesbyjit/simple-dex.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.3",
+    "express": "^5.1.0"
+  }
+}
